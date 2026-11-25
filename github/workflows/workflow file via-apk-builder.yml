@@ -1,0 +1,4 @@
+jobs:
+  build:
+    name: Build VIA Android APK
+    runs-on: ubuntu-latest
