@@ -52,3 +52,7 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 concurrency: 
+jobs:
+  build:
+    name: Build VIA Android APK
+    runs-on: ubuntu-latest
